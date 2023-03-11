@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveMarbles.Signal.RxNet", "Signal.RxNet\ReactiveMarbles.Signal.RxNet.csproj", "{54A4F4FA-6B6F-4BC8-9FED-38DFAC616505}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveMarbles.Signal.RxNet.Tests", "ReactiveMarbles.Signal.RxNet\ReactiveMarbles.Signal.RxNet.Tests.csproj", "{0194EC81-B48E-42FF-B944-4A7F9BCC0533}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionConfig", "SolutionConfig", "{1DB82F5D-001C-45D1-9EEF-AA51EA5ACD19}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\.gitignore = ..\.gitignore
+		..\.github\workflows\ci-build.yml = ..\.github\workflows\ci-build.yml
+		..\.github\dependabot.yml = ..\.github\dependabot.yml
+		..\directory.build.props = ..\directory.build.props
+		..\global.json = ..\global.json
+		..\LICENSE = ..\LICENSE
+		..\.github\workflows\lock.yml = ..\.github\workflows\lock.yml
+		..\README.md = ..\README.md
+		..\.github\workflows\release.yml = ..\.github\workflows\release.yml
+		..\stylecop.json = ..\stylecop.json
+		..\version.json = ..\version.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54A4F4FA-6B6F-4BC8-9FED-38DFAC616505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A4F4FA-6B6F-4BC8-9FED-38DFAC616505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A4F4FA-6B6F-4BC8-9FED-38DFAC616505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A4F4FA-6B6F-4BC8-9FED-38DFAC616505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0194EC81-B48E-42FF-B944-4A7F9BCC0533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0194EC81-B48E-42FF-B944-4A7F9BCC0533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0194EC81-B48E-42FF-B944-4A7F9BCC0533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0194EC81-B48E-42FF-B944-4A7F9BCC0533}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E7D838A-554C-44D3-B163-8E89CE32BF64}
+	EndGlobalSection
+EndGlobal
